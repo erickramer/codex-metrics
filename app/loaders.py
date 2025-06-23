@@ -53,7 +53,7 @@ def fetch_active_users(query: str = "codex", token: Optional[str] = None) -> lis
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    params = {"q": query, "per_page": 100}
+    params: dict[str, int | str] = {"q": query, "per_page": 100}
     url = "https://api.github.com/search/commits"
 
     all_metrics: list[Metric] = []

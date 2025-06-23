@@ -26,10 +26,20 @@ This project provides a Streamlit dashboard for visualizing code metrics.
 
 ## Type Checking
 
-Install `mypy` for static analysis and run it from the project root:
+Install `mypy` for static analysis and run it from the project root. If any
+stub packages are missing, install them (e.g. `types-requests`).
 
 ```bash
 uv pip install mypy
+mypy app
+```
+
+## Development Workflow
+
+Always run the unit tests and type checks before committing code:
+
+```bash
+pytest -q
 mypy app
 ```
 
