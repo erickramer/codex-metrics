@@ -24,3 +24,12 @@ This project provides a Streamlit dashboard for visualizing code metrics.
    uv pip install -r requirements.txt
    ```
 
+## Type Checking
+
+Install `mypy` for static analysis and run it from the project root:
+
+```bash
+uv pip install mypy
+mypy app
+```
+
