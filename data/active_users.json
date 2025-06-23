@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"repository": {"full_name": "repo1"}, "author": {"login": "alice"}, "commit": {"author": {"date": "2023-01-01T12:00:00Z"}}},
+    {"repository": {"full_name": "repo1"}, "author": {"login": "bob"}, "commit": {"author": {"date": "2023-01-01T13:00:00Z"}}},
+    {"repository": {"full_name": "repo2"}, "author": {"login": "carol"}, "commit": {"author": {"date": "2023-01-01T14:00:00Z"}}}
+  ]
+}
+
