@@ -33,3 +33,13 @@ uv pip install mypy
 mypy app
 ```
 
+## Running the Dashboard Locally
+
+After installing dependencies, start the Streamlit server with:
+
+```bash
+streamlit run app/main.py
+```
+
+Then open <http://localhost:8501> in your browser to view the dashboard.
+
